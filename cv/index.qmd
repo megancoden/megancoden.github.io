@@ -1,0 +1,66 @@
+---
+title: "Megan Coden" 
+description: |
+  _Software engineer and bioinformatician dedicated to leveraging technology to advance biological research and innovation_
+date-format: 'MMM YYYY'
+execute:
+  echo: false
+  output: false
+  freeze: auto
+title-block-banner: true
+toc: true
+toc-location: left
+page-layout: full
+listing: 
+- id: presentations
+  contents: presentations.yml
+  type: table
+  fields: [event, title, location, date, authors, format]
+  sort-ui: false
+  filter-ui: false
+  field-display-names:
+    title: Title
+    date: Date
+    authors: Authors
+    event: Event 
+    location: Location
+    format: Type
+- id: publications
+  contents: publications.yml
+  type: table
+  fields: [authors, year, title, location]
+  sort-ui: false
+  filter-ui: false
+  field-display-names:
+    authors: Authors 
+    year: Date
+    title: Title
+    location: Publication Location
+- id: awards
+  contents: awards.yml
+  type: table
+  fields: [award, dates, amount]
+  sort-ui: false
+  filter-ui: false
+  field-display-names:
+    award: Award
+    dates: Dates
+    amount: Amount 
+---
+# Education {.cvHeading}
+{{< include education.html >}}
+# Skills {.cvHeading}
+{{< include skills.html >}}
+# Experience {.cvHeading}
+{{< include experience.html >}}
+# Teaching and Outreach {.cvHeading}
+{{< include outreach.html >}}
+# Presentations {.cvHeading}
+:::{#presentations}
+:::
+# Publications {.cvHeading}
+:::{#publications}
+:::
+# Awards and Scholarships {.cvHeading}
+:::{#awards}
+:::
