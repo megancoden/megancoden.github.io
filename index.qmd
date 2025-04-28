@@ -23,7 +23,7 @@ engine: jupyter
 
 Hi, I’m Megan! I am a Software Engineer in the security division at Optum. I graduated from the University of Michigan in 2023, where I studied both Computer Science and Molecular, Cellular, and Developmental Biology. I was also a research assistant in Pat Schloss’ lab, where I used machine learning to predict the severity of _Clostridioides difficile_ infections.
 
-Outside of work, I am also on an adult gymnastics team called "Jurassic Gymnastics." I also enjoy playing volleyball, swimming, reading, and going on walks.
+Outside of work, I am on an adult gymnastics team called "Jurassic Gymnastics." I also enjoy playing volleyball, swimming, reading, and going on walks.
 
 
 :::
