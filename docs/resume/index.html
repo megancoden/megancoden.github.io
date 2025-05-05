@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Software engineer and bioinformatician dedicated to leveraging technology to advance biological research and innovation">
+<meta name="description" content="Software engineer and computational biologist with experience in bioinformatics, clinical data analysis, and large-scale molecular data processing. Skilled in statistical modeling, machine learning, and developing workflows. Passionate about leveraging technology to generate insights in oncology and precision medicine.">
 
 <title>Megan Coden – megancoden.github.io</title>
 <style>
@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -65,8 +31,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -103,95 +67,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-presentations .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-event','listing-title','listing-location','listing-date','listing-authors','listing-format',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date","listing-authors","listing-event","listing-location","listing-format"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-presentations'] = new List('listing-presentations', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-publications .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-authors','listing-year','listing-title','listing-location',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-authors","listing-year","listing-title","listing-location"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -218,11 +94,11 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../cv/index.html" aria-current="page"> 
+    <a class="nav-link" href="../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../resume/index.html"> 
+    <a class="nav-link active" href="../resume/index.html" aria-current="page"> 
 <span class="menu-text">Resume</span></a>
   </li>  
 </ul>
@@ -239,7 +115,7 @@ window.Quarto = {
       <h1 class="title">Megan Coden</h1>
                   <div>
         <div class="description">
-          <p><em>Software engineer and bioinformatician dedicated to leveraging technology to advance biological research and innovation</em></p>
+          <p><em>Software engineer and computational biologist with experience in bioinformatics, clinical data analysis, and large-scale molecular data processing. Skilled in statistical modeling, machine learning, and developing workflows. Passionate about leveraging technology to generate insights in oncology and precision medicine.</em></p>
         </div>
       </div>
                 </div>
@@ -262,12 +138,8 @@ window.Quarto = {
    
   <ul>
   <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
   <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
-  <li><a href="#teaching-and-outreach" id="toc-teaching-and-outreach" class="nav-link" data-scroll-target="#teaching-and-outreach">Teaching and Outreach</a></li>
-  <li><a href="#presentations" id="toc-presentations" class="nav-link" data-scroll-target="#presentations">Presentations</a></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
-  <li><a href="#awards-and-scholarships" id="toc-awards-and-scholarships" class="nav-link" data-scroll-target="#awards-and-scholarships">Awards and Scholarships</a></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
   </ul>
 </nav>
 </nav>
@@ -297,26 +169,16 @@ Major: Computer Science
 <p class="indent">
 Major: Honors in Molecular, Cellular, and Developmental Biology
 </p>
-</section>
-</section>
-<section id="skills" class="level1 cvHeading">
-<h1 class="cvHeading">Skills</h1>
-<section class="cvSection">
 <p>
-<span class="subheading">Languages:</span> Python, R, JavaScript, TypeScript, SQL, C++, C, C#, Swift, Bash, HTML, CSS, LaTeX
+Honors Thesis: Using machine learning to predict Clostridioides difficile infection severity
 </p>
 <p>
-<span class="subheading">Frameworks:</span> React, Angular, .NET, Flask, FastAPI, R Markdown, Node.js, Quarto
+Awards: Phi Beta Kappa, James B. Angell Scholar, William J. Branstrom Prize, ΑΧΣ Outstanding 1st Year
 </p>
 <p>
-<span class="subheading">Tools:</span> GitHub, Kubernetes, Docker, AWS, GraphQL, REST, Terraform, Meilisearch, MongoDB, Conda/Mamba, SLURM
+Relevant coursework: Cell Cycle Control and Cancer, Genomic Biology, Biochemistry, Statistics
 </p>
-<p>
-<span class="subheading">Bioinformatics &amp; Data Analysis:</span> large-scale genomic dataset analysis, machine learning (mikropml), statistical modeling (R, NumPy), data visualization (ggplot2), pipeline development (Snakemake), database management
-</p>
-<p>
-<span class="subheading">Software:</span> test-driven development, object oriented programming, continuous integration/continuous deployment, documentation, collaboration, peer review, agile methodology, cloud computing, web and mobile development
-</p>
+<p></p>
 </section>
 </section>
 <section id="experience" class="level1 cvHeading">
@@ -330,22 +192,16 @@ Optum
 </p>
 <ul>
 <li>
-Created an internal website to enforce engineering excellence principles and streamline development, deployment, and maintenance across teams. Presented at DevDays (internal technology conference), increasing project adoption.
+Created an internal developer portal to enforce engineering excellence principles and streamline deployment and maintenance across teams. Presented at DevDays (internal conference), driving adoption.
 </li>
 <li>
-Refactored API using module design pattern, enhancing code maintainability and scalability.
+Refactored API with modular architecture and implemented automated unit testing using Jest.
 </li>
 <li>
-Implemented Jest testing to enhance software reliability.
+Optimized a high-traffic feature by redesigning a database schema and implementing caching, reducing load time by over 90%. Performed data migration to ensure backwards compatibility.
 </li>
 <li>
-Overhauled core feature by redesigning the database schema, updating the UI, and adding caching, reducing load times by over 90%. Performed data migration to ensure backwards compatibility.
-</li>
-<li>
-Earned AWS Cloud Foundations certification, gaining expertise in cloud infrastructure and migration.
-</li>
-<li>
-Onboarded four new team members. Performed code reviews to ensure high-quality code integration.
+Certified in AWS Cloud Foundations, with expertise in cloud infrastructure and workflow automation.
 </li>
 </ul>
 <p>
@@ -362,10 +218,7 @@ Collaborated with UI/UX team to design and develop a user-friendly email automat
 Presented project milestones to senior executives in biweekly leadership demos.
 </li>
 <li>
-Architected and developed a reusable checklist feature enforcing engineering best practices.
-</li>
-<li>
-Created and maintained CI/CD pipelines using GitHub Actions and cron automation, reducing manual deployment efforts.
+Created and maintained CI/CD pipelines using GitHub Actions and cron automation, reducing manual testing and deployment efforts.
 </li>
 <li>
 Mentored six interns, imparting skills in leadership, networking, and navigating their careers.
@@ -382,10 +235,10 @@ ACI Transport
 </p>
 <ul>
 <li>
-Dockerized a multi-application system using Docker Compose; enabled local testing of individual services.
+Dockerized multi-application system with Docker Compose; enabled local testing of individual services.
 </li>
 <li>
-Developed features in an Angular application with a .NET backend using C# and JavaScript. Conducted xUnit and regression tests.
+Developed features in Angular/.NET app using C# and JavaScript. Conducted xUnit and regression tests.
 </li>
 </ul>
 <h3 class="anchored">
@@ -396,281 +249,44 @@ University of Michigan
 </p>
 <ul>
 <li>
-Trained machine learning models using mikropml (R package) and Snakemake reproducible workflow to predict severity of <em>C. difficile</em> infections based on the composition of patients’ gut microbiomes.
+Trained and validated machine learning models using R (mikropml) and Snakemake to predict severity of <em>C. difficile</em> infections based on gut microbiome data.
 </li>
 <li>
 Analyzed model performance using AUROC and AUPRC curves generated in R.
 </li>
 <li>
-Developed reproducible workflows to streamline analysis of continuously evolving genomic datasets, improving efficiency and scalability.
+Designed and maintained scalable, reproducible pipelines for analysis of genomic and clinical datasets, enhancing automation and adaptability to evolving datasets.
 </li>
 <li>
 Presented at research symposiums, earning second place at the Microbiology and Immunology Undergraduate Research Symposium and a travel award at the Undergraduate Research Symposium.
 </li>
 </ul>
-<p>
-<strong>Undergraduate Research Assistant - Montgomery Research Lab</strong> (2020 - 2021)
-</p>
-<ul>
-<li>
-Collaborated with Zimmerman lab to perform computational analysis of the interference of catalysts in glycoside synthesis pathways using Athena (software).
-</li>
-<li>
-Computed thermodynamic feasibility and informed lab members about effective polysaccharide synthesis.
-</li>
-</ul>
 </section>
 </section>
-<section id="teaching-and-outreach" class="level1 cvHeading">
-<h1 class="cvHeading">Teaching and Outreach</h1>
+<section id="skills" class="level1 cvHeading">
+<h1 class="cvHeading">Skills</h1>
 <section class="cvSection">
 <p>
-<strong>Instructional Aide - EECS 281</strong> (2021 - 2023)
+<span class="subheading">Languages:</span> Python, R, JavaScript, TypeScript, SQL, C++, C#, C, Swift, Bash, HTML, CSS, LaTeX
 </p>
-<ul>
-<li>
-Taught weekly discussion section for 30-40 students about concepts related to lecture material.
-</li>
-<li>
-Assisted students individually during office hours. Mentored students as they debugged their 1000+ line projects, structure code, and select data structures.
-</li>
-<li>
-Managed administrative team of seven instructional aides. Primary liaison between students and professors. Coordinated room assignments and assigned staff members to lab sections.
-</li>
-<li>
-Devised exam questions. Evaluated student performance on exams.
-</li>
-</ul>
 <p>
-<strong>MRADS/WISE RP Study Group Leader</strong> (2020 - 2021)
+<span class="subheading">Frameworks:</span> React, Angular, .NET, Flask, FastAPI, R Markdown, Node.js, Quarto
 </p>
-<ul>
-<li>
-Guided virtual study groups each week for Math 116 students. Designed worksheets and introduced calculus concepts.
-</li>
-</ul>
+<p>
+<span class="subheading">Tools:</span> GitHub, Kubernetes, Docker, AWS, GraphQL, REST, Terraform, Meilisearch, MongoDB, Conda/Mamba, SLURM
+</p>
+<p>
+<span class="subheading">Bioinformatics &amp; Data Analysis:</span> large-scale dataset analysis, machine learning (mikropml), statistical modeling (R, NumPy), data visualization (ggplot2), data visualization (ggplot2), bioinformatics workflow development (Snakemake), unit testing
+</p>
+<p>
+<span class="subheading">Software:</span> test-driven development, object oriented programming, continuous integration/continuous deployment, documentation, collaboration, peer review, agile methodology, cloud computing, web and mobile development
+</p>
 </section>
-</section>
-<section id="presentations" class="level1 cvHeading">
-<h1 class="cvHeading">Presentations</h1>
-<div id="listing-presentations" class="cvSection quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Event
-</th>
-<th>
-Title
-</th>
-<th>
-Location
-</th>
-<th>
-Date
-</th>
-<th>
-Authors
-</th>
-<th>
-Type
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1725163200000" data-listing-title-sort="Volcan: Melting Down Barriers to Code Security">
-<td>
-<span class="listing-event">Optum Dev Days Conference</span>
-</td>
-<td>
-<span class="listing-title">Volcan: Melting Down Barriers to Code Security</span>
-</td>
-<td>
-<span class="listing-location">Virtual</span>
-</td>
-<td>
-<span class="listing-date">Sep 2024</span>
-</td>
-<td>
-<span class="listing-authors">Coden, Megan L., Kosior, Katelyn</span>
-</td>
-<td>
-<span class="listing-format">Oral presentation</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1680321600000" data-listing-title-sort="Predicting _C. difficile_ infection severity based on gut microbiome composition">
-<td>
-<span class="listing-event">University of Michigan Microbiology and Immunology Undergraduate Research Symposium</span>
-</td>
-<td>
-<span class="listing-title">Predicting <em>C. difficile</em> infection severity based on gut microbiome composition</span>
-</td>
-<td>
-<span class="listing-location">Ann Arbor, MI</span>
-</td>
-<td>
-<span class="listing-date">Apr 2023</span>
-</td>
-<td>
-<span class="listing-authors">Coden, Megan L., Sovacool, Kelly L., Tomkovich, Sarah E., Rao, Krishna, Young, Vincent B, Schloss, Patrick D.</span>
-</td>
-<td>
-<span class="listing-format">Oral presentation</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1680321600000" data-listing-title-sort="Predicting _C. difficile_ infection severity based on gut microbiome composition">
-<td>
-<span class="listing-event">University of Michigan Undergraduate Research Symposium</span>
-</td>
-<td>
-<span class="listing-title">Predicting <em>C. difficile</em> infection severity based on gut microbiome composition</span>
-</td>
-<td>
-<span class="listing-location">Ann Arbor, MI</span>
-</td>
-<td>
-<span class="listing-date">Apr 2023</span>
-</td>
-<td>
-<span class="listing-authors">Coden, Megan L., Sovacool, Kelly L., Tomkovich, Sarah E., Rao, Krishna, Young, Vincent B, Schloss, Patrick D.</span>
-</td>
-<td>
-<span class="listing-format">Poster presentation</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="1654056000000" data-listing-title-sort="Predicting _C. difficile_ infection severity based on gut microbiome composition">
-<td>
-<span class="listing-event">ASM Microbe conference</span>
-</td>
-<td>
-<span class="listing-title">Predicting <em>C. difficile</em> infection severity based on gut microbiome composition</span>
-</td>
-<td>
-<span class="listing-location">Washington, D.C.</span>
-</td>
-<td>
-<span class="listing-date">Jun 2022</span>
-</td>
-<td>
-<span class="listing-authors">Sovacool, Kelly L., Tomkovich, Sarah E., Coden, Megan L., Rao, Krishna, Young, Vincent B, Schloss, Patrick D.</span>
-</td>
-<td>
-<span class="listing-format">Oral presentation</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="publications" class="level1 cvHeading">
-<h1 class="cvHeading">Publications</h1>
-<div id="listing-publications" class="cvSection quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Authors
-</th>
-<th>
-Date
-</th>
-<th>
-Title
-</th>
-<th>
-Publication Location
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-title-sort="Predicting Severity of _C. difficile_ Infections from the Taxonomic Composition of the Gut Microbiome.">
-<td>
-<span class="listing-authors">Sovacool, K. L., Sarah L Tomkovich, Megan L Coden, Jenna Wiens, Vincent B Young, Krishna Rao, &amp; Patrick D Schloss.</span>
-</td>
-<td>
-<span class="listing-year">2023</span>
-</td>
-<td>
-<span class="listing-title">Predicting Severity of <em>C. difficile</em> Infections from the Taxonomic Composition of the Gut Microbiome.</span>
-</td>
-<td>
-<span class="listing-location">Manuscript in preparation</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-title-sort="Software accompanying the manuscript: Predicting Severity of _C. difficile_ Infections from the Taxonomic Composition of the Gut Microbiome (v0.1.0).">
-<td>
-<span class="listing-authors">Sovacool, K. L., Sarah L Tomkovich, Megan L Coden, Jenna Wiens, Vincent B Young, Krishna Rao, &amp; Patrick D Schloss.</span>
-</td>
-<td>
-<span class="listing-year">2023</span>
-</td>
-<td>
-<span class="listing-title">Software accompanying the manuscript: Predicting Severity of <em>C. difficile</em> Infections from the Taxonomic Composition of the Gut Microbiome (v0.1.0).</span>
-</td>
-<td>
-<span class="listing-location"><a href="https://doi.org/10.5281/zenodo.8018793">Zenodo</a></span>
-</td>
-</tr>
-<tr data-index="2" data-listing-title-sort="Predicting Severity of _C. difficile_ Infections from the Taxonomic Composition of the Gut Microbiome.">
-<td>
-<span class="listing-authors">Megan L Coden, Sovacool, K. L., Sarah L Tomkovich, Jenna Wiens, Vincent B Young, Krishna Rao, &amp; Patrick D Schloss.</span>
-</td>
-<td>
-<span class="listing-year">2023</span>
-</td>
-<td>
-<span class="listing-title">Predicting Severity of <em>C. difficile</em> Infections from the Taxonomic Composition of the Gut Microbiome.</span>
-</td>
-<td>
-<span class="listing-location">Honors thesis</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="awards-and-scholarships" class="level1 cvHeading">
-<h1 class="cvHeading">Awards and Scholarships</h1>
-<div class="cell hidden">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="67" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 66;"><span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="cf">await</span> <span class="fu">FileAttachment</span>(<span class="st">'awards.json'</span>)<span class="op">.</span><span class="fu">json</span>()<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display hidden">
-<div id="ojs-cell-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<!-- TODO: remove checkboxes -->
-<div id="cvSection" class="cell" data-output="all">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="74" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 73;"><span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(data<span class="op">,</span> { <span class="dt">select</span><span class="op">:</span> <span class="kw">false</span> })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div id="ojs-cell-2" data-nodetype="expression">
-
-</div>
-</div>
-</div>
-
 
 
 </section>
 
 </main> <!-- /main -->
-<script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImRhdGEgPSBhd2FpdCBGaWxlQXR0YWNobWVudCgnYXdhcmRzLmpzb24nKS5qc29uKCk7XG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJJbnB1dHMudGFibGUoZGF0YSwgeyBzZWxlY3Q6IGZhbHNlIH0pXG4ifV19
-</script>
-<script type="module">
-if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../../cv";
-window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "..";
-window._ojs.selfContained = false;
-window._ojs.runtime.interpretFromScriptTags();
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

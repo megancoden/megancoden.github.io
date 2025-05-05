@@ -10,6 +10,8 @@ website:
         text: About
       - href: cv/index.qmd
         text: CV
+      - href: resume/index.qmd
+        text: Resume
 
 format:
   html:

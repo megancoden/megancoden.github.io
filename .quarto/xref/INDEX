@@ -10,5 +10,26 @@
   },
   "cv/index.qmd": {
     "index.html": "3aff6678"
+  },
+  "resume/index.qmd": {
+    "index.html": "45898342"
+  },
+  "my-website/lib/python3.13/site-packages/soupsieve-2.7.dist-info/licenses/LICENSE.md": {
+    "LICENSE.html": "e0405218"
+  },
+  "my-website/lib/python3.13/site-packages/idna-3.10.dist-info/LICENSE.md": {
+    "LICENSE.html": "a17820be"
+  },
+  "my-website/lib/python3.13/site-packages/pyzmq-26.4.0.dist-info/licenses/LICENSE.md": {
+    "LICENSE.html": "236fd8f7"
+  },
+  "my-website/lib/python3.13/site-packages/cffi/recompiler.py": {
+    "recompiler.html": "9a41952c"
+  },
+  "my-website/lib/python3.13/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md": {
+    "LICENSE.html": "fde810fd"
+  },
+  "my-website/lib/python3.13/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md": {
+    "LICENSE.html": "d8d711fe"
   }
 }

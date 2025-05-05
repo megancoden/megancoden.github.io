@@ -36,16 +36,17 @@ listing:
     year: Date
     title: Title
     location: Publication Location
-- id: awards
-  contents: awards.yml
-  type: table
-  fields: [award, dates, amount]
-  sort-ui: false
-  filter-ui: false
-  field-display-names:
-    award: Award
-    dates: Dates
-    amount: Amount 
+# - id: awards
+#   contents: awards.json
+#   type: table
+#   fields: [award, dates, amount]
+#   sort-ui: false
+#   filter-ui: false
+#   field-display-names:
+#     award: Award
+#     dates: Dates
+#     amount: Amount 
+
 ---
 # Education {.cvHeading}
 {{< include education.html >}}
@@ -56,11 +57,25 @@ listing:
 # Teaching and Outreach {.cvHeading}
 {{< include outreach.html >}}
 # Presentations {.cvHeading}
-:::{#presentations}
+:::{#presentations .cvSection}
 :::
 # Publications {.cvHeading}
-:::{#publications}
+:::{#publications .cvSection}
 :::
 # Awards and Scholarships {.cvHeading}
-:::{#awards}
-:::
+```{ojs}
+//| echo: false
+data = await FileAttachment('awards.json').json();
+```
+
+<!-- TODO: remove checkboxes -->
+```{ojs} 
+//| id: cvSection
+//| output: all
+Inputs.table(data, { select: false })
+```
+
+
+
+
+

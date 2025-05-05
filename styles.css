@@ -16,7 +16,8 @@ h1 {
 }
 
 
-.cvSection {
+.cvSection,
+.cell-output {
     color: #dee2e6;
 }
 

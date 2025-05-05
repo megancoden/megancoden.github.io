@@ -1,0 +1,25 @@
+---
+title: "Megan Coden" 
+description: |
+  _Software engineer and computational biologist with experience in bioinformatics, clinical data analysis, and large-scale molecular data processing. Skilled in statistical modeling, machine learning, and developing workflows. Passionate about leveraging technology to generate insights in oncology and precision medicine._
+date-format: 'MMM YYYY'
+execute:
+  echo: false
+  output: false
+  freeze: auto
+title-block-banner: true
+toc: true
+toc-location: left
+page-layout: full
+---
+# Education {.cvHeading}
+{{< include education.html >}}
+# Experience {.cvHeading}
+{{< include experience.html >}}
+# Skills {.cvHeading}
+{{< include skills.html >}}
+
+
+
+
+
